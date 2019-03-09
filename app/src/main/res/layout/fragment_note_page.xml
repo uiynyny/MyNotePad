@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.NotePageFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/note_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:gravity="start"
+        android:hint="@string/enter_title"
+        android:inputType="textShortMessage"
+        android:maxLines="1"
+        android:scrollbars="horizontal"
+        android:textSize="28sp" />
+
+    <ScrollView
+        android:id="@+id/note_layout_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/note_title"
+        android:fadingEdge="none">
+
+        <EditText
+            android:id="@+id/note_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="top"
+            android:hint="@string/enter_content"
+            android:inputType="textMultiLine"
+            android:padding="4dp"
+            android:textSize="20sp" />
+    </ScrollView>
+
+</RelativeLayout>

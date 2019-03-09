@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/option_italic"
+        android:icon="@drawable/ic_format_italic"
+        android:title="Italic" />
+    <item
+        android:id="@+id/option_underline"
+        android:icon="@drawable/ic_format_underline"
+        android:title="Underline" />
+    <item
+        android:id="@+id/option_bold"
+        android:icon="@drawable/ic_format_bold"
+        android:title="Bold" />
+</menu>
