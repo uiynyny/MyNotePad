@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <provider
-            android:name=".data.NoteContentProvider"
+            android:name=".data.NoteContentProvider" android:exported="false" 
             android:authorities="csi5175.note.databases"
             android:exported="true" />
 
